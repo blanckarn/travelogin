@@ -1,0 +1,32 @@
+html,body {
+    height: 100%;
+    color: 	#20B2AA; 
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body{
+    display: table-cell;
+    vertical-align: middle;
+    background: url(http://40.media.tumblr.com/914a022c0ad8a4581f96c1d12e363e29/tumblr_nogd95sMsM1u4tvlro1_500.jpg);
+}
+
+.margin {
+  margin: 0 ;
+}
+
+.logo{
+  opacity:0.96
+}
+
+.Login{
+  animation: spinner 0.2s 10;
+}
+
+@keyframes spinner{
+  0%{transform: rotate (0deg)}
+  100%{transform:rotate (100deg)}
+}
